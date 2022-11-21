@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+/*헤더공통영역*/
+#wrap{padding-top: 199px;}
+
+#header{width: 100%; height: 199px; position: absolute;
+    background: url(../img/header.png) repeat-x;
+    position: fixed; top: 0; left: 0; z-index: 300;}
+
+#headerIn{width:980px; height: 199px; margin: 0 auto; position: relative; z-index: 300;}
+
+.logo{padding-top: 61px; margin-left: 340px;}
+
+.lang a{position: absolute; top:3px; left: 20px; color: #fff;}                                                                                                                                                                                                                                           
+.utill{position: absolute; top:3px; right: 0; color: #fff;}
+.utill ul:after{content: ""; display: block; clear: both;}
+.utill ul li{margin-left: 20px; float: left; position: relative;}
+.utill ul li a{color: #fff;}
+.utill ul .u2{margin-right: 52px;}
+.utill ul .u3{display: block; width: 12px; height: 12px; 
+    position: absolute; top: 3px; right: 22px;}
+
+.gnb{position: absolute; top:160px; left: 135px;}
+.gnb h2{display: none;}
+.gnb ul{}
+.gnb ul li{float:left; margin-left: 50px; position: relative;}
+.gnb ul li .m{color: #5e5e5e; font-size: 20px; line-height: 20px;}
+.gnb ul .d1:nth-child(3) .m{color: #1075b4;}
+
+/*하버시*/
+.gnb li:hover .m{color: #1075b4;}
+
+.gnb ul li .d2{position: absolute; top:20px; left:-20px; display: none;
+                    width: 110px; height: 230px; padding-left: 20px; 
+                    opacity: 0.9;}
+.gnb:hover ul li .d2{display: block;}/*서브메뉴 공통*/
+.gnb ul li .d2 ul{padding-top:40px;}
+.gnb ul li .d2 ul li{float: none; margin-left: 0; margin-bottom: 10px;}
+.gnb ul li .d2 ul li a{font-size: 14px; color: #555;}
+.gnb ul li .d2 ul li:hover a{color: #1075b4;}
+.gnb ul .d2 .on{color: #1075b4;}
+
+#header .subBg{width: 100%; height: 0; background: #f8f8f8; opacity: 0.9;
+        position: absolute; left: 0; top:199px; overflow: hidden; z-index: 200;}
+
+
+/*푸터영역*/
+#footer{height: 221px; border-top: 2px solid #dedede;}
+#footerIn{width: 980px; margin: 0 auto; position: relative;}
+
+.fmenu{padding-top:8px; width: 100%; border-bottom: 2px solid #dedede;}
+.fmenu ul{width: 980px;  margin:0 auto;}
+.fmenu ul:after{content: ""; display: block; clear: both;}
+.fmenu ul li{float: left; margin-bottom: 8px;}
+.fmenu ul li a{color: #10486f; font-size: 16px; line-height: 16px;}
+
+.fmenu li:first-child{margin-left: 53px; margin-right: 107px;}
+.fmenu li:nth-child(2){margin-right: 95px;}
+.fmenu li:nth-child(3){margin-right: 100px;}
+.fmenu li:nth-child(4){margin-right: 105px;}
+
+.flogo{padding-top:18px; margin-left: 361px; margin-bottom: 35px;}
+.finfo{color: #767676; margin-left: 60px; font-size: 13px; line-height: 13px;}
+
+.fmark{position: absolute; top:104px; right: 50px;}
+.fmark ul{}
+.fmark ul li{}
+.fmark ul .m1{width: 261px; height: 55px; color: #767676; 
+    font-size: 11px; line-height: 11px; float: left;}
+.fmark ul .m1 p{float: left; margin-right:7px;}
+.fmark ul .m1 dt{float: left; margin-top: 7px; margin-right:3px;}
+.fmark ul .m1 dd{float: left; margin-top: 7px;}
+.fmark ul .m2{width: 47px; height: 58px; float: left; text-align: center;}
+.fmark ul .m2 p{display: block; color: #767676; font-size: 8px; line-height: 8px; text-align: center; margin-top: 3px;}
+.fmark ul .m3{width: 60px; height: 58px; float: left; text-align: center;}
+.fmark ul .m3 p{display: block; color: #767676; font-size: 8px; line-height: 8px; margin-top: 2px;}
+
+
+
+

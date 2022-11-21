@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+/*메인슬라이더 영역*/
+#mainSlider{width: 100%; height: 245px; margin-bottom: 70px;
+    background: url(../img/sub/mainSlider1.jpg) no-repeat center 0;}
+#msIn{width: 980px; height: 245px; margin: 0 auto; position: relative;}
+#msIn .sTxt{font-size: 38px; line-height: 38px; color: #434343; text-align:center; font-weight: 500; padding-top: 76px;}
+
+#msIn .ignb{position: absolute; left: 172px; bottom: 0;}
+#msIn .ignb h3{display: none;}
+#msIn .ignb ul li{float: left;}
+#msIn .ignb ul li a{display: block; text-align: center; width: 128px; height: 30px; 
+    border:1px solid #ccc; background: #fff;
+    font-size: 20px; line-height: 20px; padding-top: 10px;}
+
+#msIn .ignb .ion a{background: #005f9a; color: #fff; border: none; 
+                         width: 130px; height: 32px;}
+
+#msIn .ignb ul li:hover a{background: #005f9a; color: #fff; border: none;
+                                width: 130px; height: 32px;}
+
+/*컨테이너 본문영역*/
+#container{}
+
+.cont1{width: 980px; margin: 0 auto; margin-bottom: 100px;}
+.cont1 h3{font-size: 36px; line-height: 36px; color: #005f9a; text-align: center;
+            font-weight: 500; margin-bottom: 70px;}
+.cont1 .mv{margin: 0 80px;}
+.cont1 .mv iframe{width: 820px; height: 465px;}
+
+.cont2{width: 980px; margin: 0 auto; margin-bottom: 130px;}
+.cont2 h3{font-size: 30px; line-height: 30px; color: #005f9a; text-align: center;
+            font-weight: 500; margin-bottom: 80px;}
+.cont2 .greeting:after{content:""; display: block; clear: both;}
+.cont2 .greeting .txt{float: left;}
+.cont2 .greeting .txt dt{margin-bottom: 30px; font-size: 13px; line-height: 20px; 
+        font-weight: 400; color: #333;}
+.cont2 .greeting .txt dd{font-size: 13px; line-height: 13px; font-weight: 400;
+                                    color: #5a5a5a;}
+.cont2 .greeting .doc{float: right;}
+
+.cont3{width: 100%; background: url(../img/sub/cont3_image.jpg) no-repeat;
+        margin-bottom: 70px;}
+.cont3 .inner{width: 980px; height: 356px; margin: 0 auto;}
+.cont3 .inner .txt{font-size: 23px; line-height: 30px; color: #fff; font-weight: 200; 
+                    text-align: center; padding-top: 82px; margin-bottom:33px;}
+.cont3 .inner .txt span{color: #75c1f2;}
+.cont3 .inner .btn{position:relative; margin-left: 391px; width: 198px; height: 44px;}
+.cont3 .inner .btn a{display: block;}
+.cont3 .inner .btn span{font-size: 19px; line-height: 19px; font-weight: 300; color: #fff; 
+    position: absolute; top:14px; left: 47px;}
+
+
+
+
